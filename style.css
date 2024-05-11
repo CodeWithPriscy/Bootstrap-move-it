@@ -1,0 +1,30 @@
+body{
+    background-color:  #edf7f6;
+}
+.bg-body-tertiary {
+    background-color:#a7b5c1 !important;
+}
+.border-bottom {
+    border-bottom: var(--bs-border-width) var(--bs-border-style) #bebdbd !important;
+}
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) #bebdbd !important;
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+    }
+   .lead{
+    font-weight:400;
+    }
+    .navbar{
+     --bs-navbar-padding-y: 1rem;
+     --bs-navbar-brand-margin-end: 2rem;
+     --bs-navbar-nav-link-padding-x: 1rem;
+     --bs-navbar-brand-font-size: 1.5rem;
+     /*--bs-body-font-size: 1.5rem;*/
+    }
+    :root, [data-bs-theme=light] {
+     --bs-body-font-size: 1.3rem;
+    }
